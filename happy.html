@@ -1,0 +1,137 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="description" content="Randomizer">
+
+<meta name="keywords" content="lets have fun">
+
+<title>randomizer</title>
+
+<!-- external CSS link -->
+
+<link rel="stylesheet" href="css/normalize.css">
+
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+
+body {
+
+background: #FF6600; /* hexadecimal number */
+
+padding: 15px;
+
+font-size: 30px;
+
+}
+
+  
+
+</style>
+
+<script>
+
+// Our List of Bars
+
+var friends = [
+
+'Dhruv',
+
+'Tony Stark',
+
+'Rishabh',
+
+'Yogi',
+
+'Harshit',
+
+'Abhinav'
+
+];
+
+// Our List of Friends
+
+var marry = [
+
+'sophie Turner',
+
+'Gal gadot',
+
+'Lee',
+
+'Emma Watson',
+
+'Will',
+
+'Kayne West',
+
+'Suman Devi'
+
+];
+
+var date = [
+
+'Adams',
+
+'Alexa',
+
+'Lydia',
+
+'Dialen ',
+
+'Derek',
+
+'Bhauu',
+
+'Roxhane'
+
+];
+
+var photo=[
+
+'<img src=Masao.jpeg>',
+
+'<img src=r17.jpg>',
+
+'<img src=sinchan.jpg>',
+
+'<img src=wall.jpg>',
+
+'<img src=r8.jpg>',
+
+'<img src=r7.jpg>'
+
+];
+
+     
+
+var randomNumber = Math.floor(Math.random()*friends.length);
+
+var friendname = friends[randomNumber];
+
+var marryname = marry[randomNumber];
+
+var datename= date[randomNumber];
+
+var photoname= photo[randomNumber];
+
+document.write("How about , <strong>" + friendname + "</strong> marry with <strong>" + marryname + " ,and date "+ datename +"</strong> omg,sounds awesome?");
+
+document.write("yeah " +photoname);
+
+</script>
+
+</head>
+
+<body>
+
+<!-- PAGE CONTENT WILL BE PRINTED HERE --> 
+
+</body>
+
+</html>
